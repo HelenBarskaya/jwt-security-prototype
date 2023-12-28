@@ -1,0 +1,13 @@
+server:
+  port: 9002
+spring:
+  application:
+    name: user-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:9296
+
+eureka:
+  instance:
+    prefer-ip-address: true
